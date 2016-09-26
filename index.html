@@ -9,12 +9,12 @@
     <title>Shopping List for Grocery</title>
   </head>
   <body>
-    <h1>ShoppingListCheckOff</h1>
+    <h1>Shopping List for Grocery</h1>
 
     <div ng-controller='ShoppingController as masterList'>
 
       <div ng-controller='ToBuyShoppingController as list'>
-        <h3>To-Buy Shopping List</h3>
+        <h3>To-Buy</h3>
         <!-- <input type="text" ng-model="list.itemName" placeholder="item name">
         <input type="text" ng-model="list.itemQuantity" placeholder="quantity">
         <button ng-click="list.addItem();">Add Item</button> -->
@@ -28,7 +28,7 @@
       </div>
 
       <div ng-controller='AlreadyBoughtShoppingController as list'>
-        <h3>Bought Shopping List</h3>
+        <h3>Already Bought</h3>
         <!--<input type="text" ng-model="list.itemName" placeholder="item name">
         <input type="text" ng-model="list.itemQuantity" placeholder="quantity">
         <button ng-click="list.addItem();">Add Item</button>-->
