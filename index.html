@@ -21,7 +21,7 @@
         <ol>
           <li ng-repeat="item in list.items">
             Buy {{ item.quantity }} {{ item.name }}
-            <button ng-click="list.removeItem($index);">Buy</button>
+            <button ng-click="list.removeItem($index);"><span class="glyphicon glyphicon-ok"></span> Bought</button>
           </li>
         </ol>
         <div ng-if='masterList.toBuyMessage' class="error">{{masterList.toBuyMessage}}</div>
